@@ -1,9 +1,9 @@
 describe "Truth" do
   it "must be truthy" do
-    true.should be_true
+    expect(true).to be_truthy
   end
 
   it "must make one equal one" do
-    1.should eq(1)
+    expect(1).to eq(1)
   end
 end
