@@ -1,6 +1,6 @@
 # Empty ruby project
 
-# Developing
+## Developing
 
 You can use Guard to run tests automatically
 
