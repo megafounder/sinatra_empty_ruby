@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'sinatra', '~> 1.4.5'
+gem 'imdb', '~> 0.8.2'
 
 group :test do
   gem 'rspec', '~> 3.0.0'
@@ -13,7 +14,7 @@ group :development do
   gem 'rb-fsevent', :require => false
   gem 'rb-fchange', :require => false
   gem 'terminal-notifier-guard'
-  gem 'guard-bundler'
+  gem 'guard-bundler' 
   gem 'guard-rspec'
   gem 'pry'
   gem 'shotgun'
