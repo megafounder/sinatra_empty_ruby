@@ -3,7 +3,7 @@ require 'pry'
 
 
 get '/' do
-  :party.rb
+  :party
 end
 
 
